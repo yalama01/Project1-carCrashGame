@@ -290,6 +290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b23612fb4b446a24599d2f3354e96c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 50
+  turnSpeed: 30
 --- !u!54 &197857428
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -735,7 +737,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 178130, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
       propertyPath: m_Name
-      value: Veh_Ute_Red_Z
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 436868, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
       propertyPath: m_RootOrder
